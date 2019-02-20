@@ -1,0 +1,284 @@
+/*   GLOBAL   */
+* {margin: 0; padding: 0;}
+
+body {font-family: roboto, sans-serif;}
+
+/*   HEADER   */
+
+#main-nav {
+    height: 60px;
+    text-align: right;
+    background-color: #151a2e;
+}
+
+.logo-holder {
+    float: left;
+    text-align: left;
+    padding-left: 1rem;
+}
+
+.logo-img {width: 50%;}
+
+#main-menu {list-style: none;}
+
+
+
+.main-menu-item {display: inline-block;}
+
+
+
+.main-menu-item a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #eb7f00;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+
+.main-menu-item a:hover {background-color: #de3300;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   COVER   */
+
+.cover {
+    background: url(bg1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 100px 20%;
+}
+
+.cover-dimmer {
+    background: rgba(0,0,0,0.5);
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-top: -8px;
+    margin-bottom: 0.25rem;
+}
+
+.button-cover {
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #eb7f00;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+
+
+/*   SERVICES   */
+
+#services {
+    width: 80%;
+    margin: auto;
+    padding-top: 4rem;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+    font-size: 3rem;
+}
+
+.subheader {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.service {
+    padding: 2%;
+    width: 27%;
+    float: left;
+    border: solid 1px lightgrey;
+    margin: 1%;
+}
+
+.img-usluga {width: 100%;}
+
+.btn-holder {text-align: center;}
+
+.button-service {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: white;
+    background-color: #0091eb;
+    border: 0;
+    border-radius: 4px;
+    margin-top: .8rem;
+}
+
+
+
+/*   CLEAR FLOAT   */
+
+.clearfloat {clear: both;}
+
+
+
+/*   MORE INFO   */
+
+.moreinfo {
+    margin-top: 4rem;
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-position: 0 -100px;
+    color: white;
+}
+
+.dimmer {
+    padding: 3rem 0;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.form-holder {
+    width: 80%;
+    margin: auto;
+}
+
+.forma-text {
+    margin-left: 10%;
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+    vertical-align:top;
+    margin: 0rem 2rem 1rem 3rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.forma {
+    width: 50%;
+    display: inline-block;
+}
+
+input {
+    margin: 6px 0 6px 20px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 4px;
+    width: 60%;
+}
+.btn {
+    width: 120px;
+    background-color: aqua;
+    color: #fff;
+    background-color: #eb7f00;
+}
+
+
+
+/*   ACHIEVEMENTS   */
+
+#achievements {padding: 4rem 0;}
+
+.cont-achi {
+    width: 80%;
+    margin: auto;
+}
+
+.long-text {
+    line-height: 1.6rem;
+    margin-top: 1.6rem;
+}
+
+.features {
+    width: 100%;
+    margin-top: 1.6rem;
+}
+
+.features td {
+    padding: 10px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+/*   FOOTER   */
+
+footer {
+    background-color: #151a2e;
+    padding: 3rem;
+}
+
+#footer-table {
+    width: 80%;
+    margin: auto;
+    border: 0;
+}
+
+#footer-table td {
+    color: #fff;
+    border: 0;
+    width: 33%;
+    line-height: 1.6rem;
+    vertical-align: top
+}
+
+.logo-bottom {
+    width: 150px;
+}
+
+.slogan-bottom {
+    margin: -30px 0 0 47px;
+    font-size: .7rem;
+}
+
+.bigger {
+    font-size: 120%;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: orange;
+}

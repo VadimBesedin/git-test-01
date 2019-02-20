@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница HTML</title>
+    <link rel="stylesheet" href="styles.css">
+    <style type="text/css">
+        .test{color:#EEE;}
+    </style>
+</head>
+<body>
+   
+   <!--ul#nav>li.menu-link*4>a{Ссылка $}-->
+   
+    <header>
+       
+        <nav id="main-nav">
+           
+            <div class="logo-holder"><img src="easyway-logo.png" alt="Моя компания" class="logo-img"></div>
+            
+            <ul id="main-menu">
+                <li class="main-menu-item"><a href="#main-nav">Главная</a></li>
+                <li class="main-menu-item"><a href="#services">Услуги</a></li>
+                <li class="main-menu-item"><a href="#achievements">Достижения</a></li>
+                <li class="main-menu-item"><a href="#footer-table">Контакты</a></li>
+            </ul>
+            
+        </nav>
+        
+    </header>
+
+
+
+    <!--    COVER   -->
+
+    <section class="cover">
+        <div class="cover-dimmer">
+            <h1>Технологии будущего</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, quas quibusdam debitis.</p>
+            <button class="button-cover">Заказать</button>
+        </div>
+    </section>
+
+    <!--    section.services>container.container-a>div.service*3>h3{Услуга $}+p.serv-descr>lorem12-->
+    
+
+    <!--    SERVICES   -->
+
+    <section id="services">
+        <h2>К вашим услугам</h2>
+        <p class="subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis provident animi dicta.</p>
+        <container class="container-a">
+            <div class="service">
+                <h3>Планирование</h3>
+                <img src="img1.jpg" alt="" class="img-usluga">
+                <p class="serv-descr">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <div class="btn-holder">
+                    <button class="button-service">Заказать</button>
+                </div>
+            </div>
+            <div class="service">
+                <h3>Консультации</h3>
+                <img src="img2.jpg" alt="" class="img-usluga">
+                <p class="serv-descr">A maxime labore quod, totam, saepe animi asperiores.</p>
+                <div class="btn-holder">
+                    <button class="button-service">Заказать</button>
+                </div>
+            </div>
+            <div class="service">
+                <h3>Разработки</h3>
+                <img src="img3.jpg" alt="" class="img-usluga">
+                <p class="serv-descr">Debitis quod consequuntur, aliquid inventore suscipit.</p>
+                <div class="btn-holder">
+                    <button class="button-service">Заказать</button>
+                </div>
+            </div>
+        </container>
+    </section>
+
+
+
+    <!--    CLEAR FLOAT   -->
+
+    <div class="clearfloat"></div>
+
+
+
+    <!--    MORE INFO   -->
+
+    <section class="moreinfo">
+        <div class="dimmer">
+            <h2>У нас есть все ответы</h2>
+            <p class="subheader">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum iure pariatur nihil.</p>
+            <div class="form-holder">
+                <div class="forma-text">
+                    <h3>Подпишитесь на рассылку</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus commodi possimus similique.</p>
+                </div>
+                <div class="forma">
+                    <form action="">
+                        <input type="text" placeholder="Ваше имя"><br>
+                        <input type="text" placeholder="Ваш емайл"><br>
+                        <input type="submit" value="Отправить" class="btn">
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <!--   ACHIEVEMENTS   -->
+        
+    <section id="achievements">
+        <div class="cont-achi">
+            <h2>Наши достижения</h2>
+            <p class="long-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, non perspiciatis, possimus sunt, ducimus neque blanditiis officia laborum atque necessitatibus sed molestias? Quam perspiciatis sed voluptatum error incidunt laudantium in. Facere impedit nesciunt repudiandae quia aliquam nostrum quibusdam debitis, aliquid, voluptatum.</p>
+            <p class="long-text">Facere impedit nesciunt repudiandae quia aliquam nostrum quibusdam debitis, aliquid, voluptatum. Earum, non perspiciatis, possimus sunt, ducimus neque blanditiis officia laborum atque necessitatibus sed molestias? Quam perspiciatis sed voluptatum error incidunt laudantium in. Natus aut, architecto sed molestias laborum repudiandae dolore animi et adipisci, ipsum vitae eum reiciendis dolores laudantium nobis in.</p>
+
+            <table class="features">
+                <tr>
+                    <td>Gooqle</td>
+                    <td>Yanbex</td>
+                    <td>Sansung</td>
+                    <td>Aplle</td>
+                    <td>Nice</td>
+                </tr>
+            </table>
+
+            <p class="long-text">Velit accusamus deserunt cumque consequuntur dolor ab illum distinctio, vel libero sunt, maxime cum repudiandae deleniti sit ullam perferendis nisi rerum mollitia. In at incidunt obcaecati libero, deleniti sit a.</p>
+        </div>
+    </section>
+
+    
+    
+    <!--   FOOTER   -->
+    
+    <footer>
+        <table id="footer-table">
+            <tr>
+                <td><img src="easyway-logo.png" alt="Моя компания" class="logo-bottom">
+                    <div class="slogan-bottom">Решения и результаты</div>
+                </td>
+                <td class="text-right"><span class="bigger">Наши каналы</span><br>
+                    <a href="#" class="footer-link">YouTube</a><br>
+                    <a href="#" class="footer-link">Facebook</a><br>
+
+                    <a href="#" class="footer-link">Instagram</a>
+                </td>
+                <td class="text-right"><span class="bigger">Контакты</span><br>
+                    Москва, ул. Светлая, д. 2,<br>
+                    Тел. +01 234 567 890<br>
+                    Email: <a href="mailto:info@easyway-test.com" class="footer-link">info@easyway-test.com</a>
+                </td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
+</html>
